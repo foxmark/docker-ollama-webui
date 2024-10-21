@@ -24,7 +24,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./data/db:/etc/searxng
+      - ./data/searxng:/etc/searxng
     restart: unless-stopped
 
   ollama:
